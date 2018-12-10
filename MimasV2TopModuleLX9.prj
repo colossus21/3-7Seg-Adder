@@ -1,0 +1,3 @@
+vhdl work "src/MimasV2SevenSegmentDisplay/MimasV2SevenSegment.vhd"
+vhdl work "src/clocking.vhd"
+vhdl work "src/MimasV2TopModuleLX9.vhd"
