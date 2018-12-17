@@ -76,7 +76,7 @@ process(clk_i)
 	 for k in 7 downto 0 loop
 		LED(k) <= not DPSwitch(7-k);
 	 end loop;
-	 addVal := to_integer(not signed(DPSwitch));
+	 addVal := to_integer(not unsigned(DPSwitch));
 	 -- Each Seven Segment display is activated by passing active-low signal to enable pin(Common Anode Configured).
      En := En(1 downto 0) & En(2);                             
 	-- Increment the value to be displayed.
@@ -90,6 +90,9 @@ process(clk_i)
 	if (Switch(0)='0') then
 	 if (i = 20) then 
 			val := val + addVal;
+			if (val>999) then
+				val := val-999;
+			end if;	
 			i <= 0; 
 	 else
 		-- Once the value is reached reload the count. 

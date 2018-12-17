@@ -37,10 +37,10 @@ NGDBUILD Design Results Summary:
   Number of errors:     0
   Number of warnings:   1
 
-Total memory usage is 200556 kilobytes
+Total memory usage is 191980 kilobytes
 
 Writing NGD file "MimasV2TopModuleLX9.ngd" ...
-Total REAL time to NGDBUILD completion:  8 sec
-Total CPU time to NGDBUILD completion:   8 sec
+Total REAL time to NGDBUILD completion:  4 sec
+Total CPU time to NGDBUILD completion:   4 sec
 
 Writing NGDBUILD log file "MimasV2TopModuleLX9.bld"...
