@@ -1,8 +1,8 @@
 INTSTYLE=ise
-INFILE=G:\Class\mimas2_7seg_counter\mimas2_7seg_counter\MimasV2TopModuleLX9.ncd
-OUTFILE=G:\Class\mimas2_7seg_counter\mimas2_7seg_counter\MimasV2TopModuleLX9.bit
+INFILE=G:\Class\Digital System Design\Lab\3-7Seg-Adder\MimasV2TopModuleLX9.ncd
+OUTFILE=G:\Class\Digital System Design\Lab\3-7Seg-Adder\MimasV2TopModuleLX9.bit
 FAMILY=Spartan6
 PART=xc6slx9-2csg324
-WORKINGDIR=G:\Class\mimas2_7seg_counter\mimas2_7seg_counter
+WORKINGDIR=G:\Class\Digital System Design\Lab\3-7Seg-Adder
 LICENSE=WebPack
 USER_INFO=211541868_0_0_433

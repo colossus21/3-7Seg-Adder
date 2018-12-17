@@ -23,6 +23,102 @@ To see the details of these <arg fmt="%s" index="4">info</arg> messages, please 
 <msg type="info" file="MapLib" num="159" delta="old" >Net Timing constraints on signal <arg fmt="%s" index="1">CLK</arg> are pushed forward through input buffer.
 </msg>
 
+<msg type="warning" file="Pack" num="2548" delta="old" >The register &quot;<arg fmt="%s" index="1">SevenSegmentDisplay_instant/LED_7_1</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="old" >The register &quot;<arg fmt="%s" index="1">SevenSegmentDisplay_instant/LED_7_2</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="old" >The register &quot;<arg fmt="%s" index="1">SevenSegmentDisplay_instant/LED_7_3</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="old" >The register &quot;<arg fmt="%s" index="1">SevenSegmentDisplay_instant/LED_7_4</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="old" >The register &quot;<arg fmt="%s" index="1">SevenSegmentDisplay_instant/LED_6_1</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="old" >The register &quot;<arg fmt="%s" index="1">SevenSegmentDisplay_instant/LED_6_2</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="old" >The register &quot;<arg fmt="%s" index="1">SevenSegmentDisplay_instant/LED_6_3</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="old" >The register &quot;<arg fmt="%s" index="1">SevenSegmentDisplay_instant/LED_6_4</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="old" >The register &quot;<arg fmt="%s" index="1">SevenSegmentDisplay_instant/LED_5_1</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="old" >The register &quot;<arg fmt="%s" index="1">SevenSegmentDisplay_instant/LED_5_2</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="old" >The register &quot;<arg fmt="%s" index="1">SevenSegmentDisplay_instant/LED_5_3</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="old" >The register &quot;<arg fmt="%s" index="1">SevenSegmentDisplay_instant/LED_5_4</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="old" >The register &quot;<arg fmt="%s" index="1">SevenSegmentDisplay_instant/LED_4_1</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="old" >The register &quot;<arg fmt="%s" index="1">SevenSegmentDisplay_instant/LED_4_2</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="old" >The register &quot;<arg fmt="%s" index="1">SevenSegmentDisplay_instant/LED_4_3</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="old" >The register &quot;<arg fmt="%s" index="1">SevenSegmentDisplay_instant/LED_4_4</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="old" >The register &quot;<arg fmt="%s" index="1">SevenSegmentDisplay_instant/LED_3_1</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="old" >The register &quot;<arg fmt="%s" index="1">SevenSegmentDisplay_instant/LED_3_2</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="old" >The register &quot;<arg fmt="%s" index="1">SevenSegmentDisplay_instant/LED_3_3</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="old" >The register &quot;<arg fmt="%s" index="1">SevenSegmentDisplay_instant/LED_3_4</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="old" >The register &quot;<arg fmt="%s" index="1">SevenSegmentDisplay_instant/LED_2_1</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="old" >The register &quot;<arg fmt="%s" index="1">SevenSegmentDisplay_instant/LED_2_2</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="old" >The register &quot;<arg fmt="%s" index="1">SevenSegmentDisplay_instant/LED_2_3</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="old" >The register &quot;<arg fmt="%s" index="1">SevenSegmentDisplay_instant/LED_2_4</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="old" >The register &quot;<arg fmt="%s" index="1">SevenSegmentDisplay_instant/LED_1_1</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="old" >The register &quot;<arg fmt="%s" index="1">SevenSegmentDisplay_instant/LED_1_2</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="old" >The register &quot;<arg fmt="%s" index="1">SevenSegmentDisplay_instant/LED_1_3</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="old" >The register &quot;<arg fmt="%s" index="1">SevenSegmentDisplay_instant/LED_1_4</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="old" >The register &quot;<arg fmt="%s" index="1">SevenSegmentDisplay_instant/LED_0_1</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="old" >The register &quot;<arg fmt="%s" index="1">SevenSegmentDisplay_instant/LED_0_2</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="old" >The register &quot;<arg fmt="%s" index="1">SevenSegmentDisplay_instant/LED_0_3</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
+<msg type="warning" file="Pack" num="2548" delta="old" >The register &quot;<arg fmt="%s" index="1">SevenSegmentDisplay_instant/LED_0_4</arg>&quot; has the property IOB=TRUE, but was not packed into the ILOGIC component. <arg fmt="%z" index="2"></arg>
+</msg>
+
 <msg type="info" file="Pack" num="1716" delta="old" >Initializing temperature to <arg fmt="%0.3f" index="1">85.000</arg> Celsius. (default - Range: <arg fmt="%0.3f" index="2">0.000</arg> to <arg fmt="%0.3f" index="3">85.000</arg> Celsius)
 </msg>
 

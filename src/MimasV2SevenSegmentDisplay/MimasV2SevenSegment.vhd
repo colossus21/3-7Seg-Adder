@@ -19,7 +19,7 @@ entity MimasV2SevenSegmentDisplay is
 	-- The input is from GPI and two GPI pin's of peripheral port P5 for the control of Seven Segment.
 	DPSwitch         : in std_logic_vector(7 downto 0);
 	Switch       : in std_logic_vector(5 downto 0);
-	
+	LED	: inout std_logic_vector(7 downto 0);
   -- Seven segments of the display. The displays are multiplexed
   -- So we need only 7 common IOs for all displays
    SevenSegment     : out std_logic_vector (7 downto 0);
@@ -73,7 +73,10 @@ process(clk_i)
   variable temp					  : integer := 0;
    begin
     if rising_edge(clk_i) then
-	 addVal := to_integer(signed(DPSwitch));
+	 for k in 7 downto 0 loop
+		LED(k) <= not DPSwitch(7-k);
+	 end loop;
+	 addVal := to_integer(not signed(DPSwitch));
 	 -- Each Seven Segment display is activated by passing active-low signal to enable pin(Common Anode Configured).
      En := En(1 downto 0) & En(2);                             
 	-- Increment the value to be displayed.

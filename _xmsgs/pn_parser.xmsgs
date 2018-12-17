@@ -8,7 +8,7 @@
 <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
 
 <messages>
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;G:/Class/mimas2_7seg_counter/mimas2_7seg_counter/src/MimasV2SevenSegmentDisplay/MimasV2SevenSegment.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;G:/Class/Digital System Design/Lab/3-7Seg-Adder/src/MimasV2SevenSegmentDisplay/MimasV2SevenSegment.vhd&quot; into library work</arg>
 </msg>
 
 </messages>

@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2018-12-10T22:11:18</DateModified>
+  <DateModified>2018-12-17T22:40:05</DateModified>
   <ModuleName>MimasV2TopModuleLX9</ModuleName>
   <SummaryTimeStamp>2018-12-10T22:07:20</SummaryTimeStamp>
-  <SavedFilePath>G:/Class/mimas2_7seg_counter/mimas2_7seg_counter/iseconfig/MimasV2TopModuleLX9.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>G:/Class/mimas2_7seg_counter/mimas2_7seg_counter\</ImplementationReportsDirectory>
+  <SavedFilePath>G:/Class/Digital System Design/Lab/3-7Seg-Adder/iseconfig/MimasV2TopModuleLX9.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>G:/Class/Digital System Design/Lab/3-7Seg-Adder\</ImplementationReportsDirectory>
   <DateInitialized>2018-05-21T13:28:43</DateInitialized>
   <EnableMessageFiltering>true</EnableMessageFiltering>
  </header>

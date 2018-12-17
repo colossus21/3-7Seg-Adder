@@ -5,8 +5,8 @@ Command Line: D:\Xilinx\14.6\ISE_DS\ISE\bin\nt\unwrapped\ngdbuild.exe -filter
 iseconfig/filter.filter -intstyle ise -dd _ngo -nt timestamp -uc ucf/MimasV2.ucf
 -p xc6slx9-csg324-2 MimasV2TopModuleLX9.ngc MimasV2TopModuleLX9.ngd
 
-Reading NGO file
-"G:/Class/mimas2_7seg_counter/mimas2_7seg_counter/MimasV2TopModuleLX9.ngc" ...
+Reading NGO file "G:/Class/Digital System
+Design/Lab/3-7Seg-Adder/MimasV2TopModuleLX9.ngc" ...
 Gathering constraint information from source properties...
 Done.
 
@@ -37,10 +37,10 @@ NGDBUILD Design Results Summary:
   Number of errors:     0
   Number of warnings:   1
 
-Total memory usage is 200428 kilobytes
+Total memory usage is 200556 kilobytes
 
 Writing NGD file "MimasV2TopModuleLX9.ngd" ...
-Total REAL time to NGDBUILD completion:  3 sec
-Total CPU time to NGDBUILD completion:   3 sec
+Total REAL time to NGDBUILD completion:  8 sec
+Total CPU time to NGDBUILD completion:   8 sec
 
 Writing NGDBUILD log file "MimasV2TopModuleLX9.bld"...

@@ -45,7 +45,7 @@ entity MimasV2TopModuleLX9 is
                      SevenSegment                                   : OUT   STD_LOGIC_VECTOR(SevenSegmentLED-1 downto 0);
                      SevenSegmentEnable                             : OUT   STD_LOGIC_VECTOR(NumberOfSevenSegmentModule-1 downto 0); 
               -- LED
-                     LED                                            : INOUT STD_LOGIC_VECTOR(NumberOfLEDs-1 downto 0);
+                     LED                                            : INOUT STD_LOGIC_VECTOR(7 downto 0);
               -- Ports
                      IO_P6                                          : OUT   STD_LOGIC_VECTOR(NumberOfEachPortIOs-1 downto 0);
                      IO_P7                                          : OUT   STD_LOGIC_VECTOR(NumberOfEachPortIOs-1 downto 0);
@@ -76,7 +76,8 @@ architecture Behavioral of MimasV2TopModuleLX9 is
 											Switch       : in std_logic_vector(NumberOfPushButtonSwitch-1 downto 0);
                                   -- Output fot Seven Segment Display
 							            SevenSegment : out std_logic_vector(7 downto 0);
-                                 Enable       : out std_logic_vector(2 downto 0)
+                                 Enable       : out std_logic_vector(2 downto 0);
+											LED			 : out std_logic_vector(7 downto 0)
                                 );
  end component;
 
@@ -97,7 +98,8 @@ begin
                                               DPSwitch                                       => DPSwitch,
 															 Switch														=> Switch,
                                               SevenSegment                                   => SevenSegment,
-                                              Enable                                         => SevenSegmentEnable);
+                                              Enable                                         => SevenSegmentEnable,
+															 LED                                         	=> LED);
 
     
  
